@@ -18,10 +18,10 @@
         <p><strong>-- {languages} --</strong></p> 
         <p>{description}</p>
         {#if github}
-        <a href={github} target="_blank" rel="noopener noreferrer">Source Code</a>
+        <a href={github} class = "link" target="_blank" rel="noopener noreferrer">Source Code</a>
         {/if}
         {#if link}
-         | <a href={link} target="_blank" rel="noopener noreferrer">Website</a>
+         | <a href={link} class = "link" target="_blank" rel="noopener noreferrer">Website</a>
         {/if}
     </div>
     {#if imagePosition === 'right' && image}
@@ -41,6 +41,11 @@
         background: linear-gradient(135deg, #3795ff, #b236ff); /* Gradient background */
         margin: 1rem; /* Space between components */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    }
+    .link{
+        font-size: 1.5rem;
+        color: #7fffa5;
+        font-weight: bold;
     }
     .project-image {
         max-width: 40%;

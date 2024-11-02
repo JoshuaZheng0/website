@@ -4,6 +4,7 @@
     import Leadership from './Leadership.svelte';
     import Projects from './Projects.svelte';
     import Icons from './Icons.svelte';
+
    
     let currentYear = new Date().getFullYear();
     
