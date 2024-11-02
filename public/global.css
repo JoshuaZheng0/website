@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	color: #333;
+	color: #fff;
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
@@ -45,7 +45,7 @@ input:disabled {
 }
 
 button {
-	color: #333;
+	color: #fff;
 	background-color: #f4f4f4;
 	outline: none;
 }

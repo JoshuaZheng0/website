@@ -40,34 +40,29 @@
         object-fit: contain; /* Ensures that the image scales correctly without distortion */
     }
     @media only screen and (max-width: 600px) {
-        .icon {
-        max-width: 8vw; /* Adjust the icon size */
-        height: auto; /* Maintain aspect ratio */
-        }
         .icon, .icon-terplink {
-        width: 40px; /* Set a fixed width */
-        height: 40px; /* Set a fixed height */
-        object-fit: contain; /* Ensures that the image scales correctly without distortion */
-    }
-    .icon-container {
-        display: flex;          /* Use flexbox to align items */
-        align-items: center;   /* Center items vertically */
-        justify-content: center; /* Center items horizontally */
-        height: 100px;        /* Set a specific height for the container */
-        margin-left: 1rem;    /* Set left margin */
-        margin-right: 1rem;   /* Set right margin */
-    }
-    nav {
-        display: flex; /* Enable flexbox */
-        justify-content: center; /* Center items horizontally */
-        padding: 10px;
-    }
+            width: 40px; /* Set a fixed width */
+            height: 40px; /* Set a fixed height */
+            object-fit: contain; /* Ensures that the image scales correctly without distortion */
+        }
+        .icon-container {
+            display: flex;          /* Use flexbox to align items */
+            align-items: center;   /* Center items vertically */
+            justify-content: center; /* Center items horizontally */
+            margin-left: 1rem;    /* Set left margin */
+            margin-right: 1rem;   /* Set right margin */
+        }
+        nav {
+            display: flex; /* Enable flexbox */
+            justify-content: center; /* Center items horizontally */
+            padding: 1rem;
+        }
 
-    nav a {
-        margin: 10px; /* Space between links */
-        text-decoration: none; /* Remove underline */
-        color: #FFD520; /* Nav link color */
-        font-weight: bold; /* Bold text */
-    }
+        nav a {
+            margin: 10px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+            color: #FFD520; /* Nav link color */
+            font-weight: bold; /* Bold text */
+        }
     }
 </style>

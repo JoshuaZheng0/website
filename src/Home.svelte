@@ -49,7 +49,7 @@
             #00A6ED,
             #cbaaf4
         );
-        padding: 10px;
+        margin:1rem;
         color: #FFFFFF; /* Header text color */
         border-radius: 20px;
         text-align: center; /* Center header text */
@@ -70,7 +70,7 @@
     .header-image {
         max-width: 20vw; /* Adjust width as needed */
         height: auto; /* Maintain aspect ratio */
-        margin-left: 20px; /* Space between text and image */
+        margin:.7rem; /* Space between text and image */
         border-radius: 20px;
     }
     a:hover .header-image {
@@ -87,13 +87,12 @@
 	}
 	header {
         background-color: #FF787A; /* Header background color */
-        padding: 10px;
         color: #FFFFFF; /* Header text color */
         border-radius: 20px;
     }
     .header-content {
         display: flex; /* Use flexbox for alignment */
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-between; /* Space between text and image */
         align-items: center; /* Center items vertically */
     }
@@ -103,10 +102,10 @@
     }
 
     .header-image {
-        max-width: 90vw; /* Adjust width as needed */
+        padding-top: 1rem;
+        max-width: 90%; /* Adjust width as needed */
         height: auto; /* Maintain aspect ratio */
         margin: auto;
-        border-radius: 20px;
     }
 }
 </style>
@@ -116,14 +115,13 @@
             <img src="/assets/self-portrait-close.jpg" alt="Joshua Zheng holding Coffee" class="header-image" />
         </a>
         <div class="header-text">
-            <h1>⟨<Typing/></h1>
+            <h1><Typing/></h1>
             <h2>
                 I'm a computer science undergraduate at the University of Maryland, 
                 College Park, with experience in software development, web technologies, 
-                and server management. I developed the ACM website and set up a Debian server. 
+                and server management. I developed the ACM website and set up my own Debian server. 
                 Beyond programming, I enjoy nature photography, running, and spending time with 
-                my dog. Some recent projects include a web scraper for library room reservations,
-                 a C compiler in Rust, and a brain-controlled hat for an RC car.     
+                my dog.     
             </h2>
         </div>
     </div>

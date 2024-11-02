@@ -44,19 +44,27 @@
             title: 'Drone Imaging and Interactive Tour Developer',
             image: '/assets/hl.jpg',
             description: 'Worked for the former Vice President of Warner Brothers to capture hundreds of aerial images with a drone and developed them into 360° photos using Photoshop. Created a 52-scene virtual walkthrough with Cloudpano and integrated the tour into a professional website.',
-            github: 'https://github.com/yourusername/drone-imaging-interactive-tour',
+            github: '',
             imagePosition: 'left',
             date: 'May 2024–August 2024',
-            languages: 'Photography, Photoshop, Web Development',
+            languages: 'Photography, Photoshop, Drone Piloting',
             link: 'https://app.cloudpano.com/tours/nrUoBcJQb'
         },
-
+        {
+            title: 'Gambling Simulation Game',
+            image: '/assets/gambling.png',
+            description: 'Created a 2D slots game featuring a graphical interface using Unity and C#. The game includes engaging gameplay mechanics and a user-friendly design.',
+            github: 'https://www.youtube.com/watch?v=sQOKUArmOCY',
+            imagePosition: 'right',
+            date: 'Spring 2024',
+            languages: 'Unity, C#'
+        },
         {
             title: 'C Compiler in Rust (In Progress)',
             image: '',
-            description: 'Implemented a C compiler using Rust, focusing on performance and accuracy.',
-            github: 'https://github.com/yourusername/c-compiler-rust',
-            imagePosition: 'left',
+            description: 'Creating a C compiler using Rust.',
+            github: '',
+            imagePosition: 'right',
             date: 'Aug 2024',
             languages: 'Rust'
         },
@@ -64,30 +72,29 @@
             title: 'Brain-Controlled RC Car (In Progress)',
             image: '',
             description: 'A hat that allows control of an RC car using brain signals.',
-            github: 'https://github.com/yourusername/brain-controlled-rc-car',
-            imagePosition: 'left',
+            github: '',
+            imagePosition: 'right',
             date: 'Aug 2024',
             languages: 'Python, 3D Printing'
         },
         {
             title: 'Meme Generator App',
             image: '',
-            description: 'Developed an Android app for creating memes using Java and Firebase for secure authentication and data synchronization. Utilized Firebase Storage and Base64 encoding for efficient image handling, and designed a responsive UI with dark/light mode while optimizing performance with dynamic content loading.',
-            github: 'https://github.com/yourusername/meme-generator-app',
-            imagePosition: 'left',
+            description: 'Developed an Android meme-creation app in Java with Firebase for secure authentication, data sync, and storage. Used Base64 for image handling, implemented dark/light mode, and optimized performance with dynamic content loading.',
+            github: '',
+            imagePosition: 'right',
             date: 'Fall 2023',
-            languages: 'Java, Firebase, Android Development, UI Design'
+            languages: 'Java, Firebase, Android Development'
         },
-
         {
-            title: 'Gambling Simulation Game',
-            image: '',
-            description: 'Created a 2D slots game featuring a graphical interface using Unity and C#. The game includes engaging gameplay mechanics and a user-friendly design.',
-            github: 'https://github.com/yourusername/gambling-simulation-game',
-            imagePosition: 'left',
-            date: 'Spring 2024',
-            languages: 'Unity, C#'
-        },
+            title: "Debian Home Server",
+            image: "",
+            description:"Configured a Debian server for hosting web applications and managing networked devices. Set up NGINX for web hosting, secure SSH access, automated backups, and remote file sharing, with firewall rules and permissions for added security.",
+            github: "",
+            imagePosition: "right",
+            date: "Summer 2024",
+            languages: "Linux, Debian, NGINX, SSH"
+        }
     ];
 </script>
 
@@ -120,5 +127,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center; /* Center projects within the container */
+    }
+    h1{
+        margin: 0;
     }
 </style>

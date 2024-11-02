@@ -115,7 +115,7 @@
         color: #fff; /* Announcements text color */
     }
 
-    .announcements h2 {
+    .announcements h2, h3 {
         color: #fff; 
         font-family: 'Quicksand', sans-serif; 
         font-weight: bold;
@@ -178,30 +178,8 @@
         .container {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            padding: 20px;
-            gap: 20px;
         }
 
-        .announcements, .opportunities {
-            flex: 1;
-            padding: 20px;
-            border-radius: 10px;
-            box-sizing: border-box;
-        }
 
-        .announcements {
-            background-color: #FFEA8C; /* Announcements section color */
-            color: #000000; /* Announcements text color */
-        }
-
-        .announcements h2 {
-            color: #F1373A; /* Announcements heading color */
-        }
-
-        .opportunities {
-            background-color: #FF787A; /* Opportunities section color */
-            color: #000000; /* Opportunities text color */
-        }
     }
 </style>

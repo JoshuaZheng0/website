@@ -120,40 +120,18 @@
     }
 
     @media only screen and (max-width: 600px) {
-        :global(body) {
-            overflow-x: hidden;
-        }
-        .icon {
-        max-width: 8vw; /* Adjust the icon size */
-        height: auto; /* Maintain aspect ratio */
-        }
-        .icon-terplink {
-            max-width: 7vw; /* Adjust the icon size */
-            height: auto; /* Maintain aspect ratio */
-        }
-        .icon-container {
-            display: flex;          /* Use flexbox to align items */
-            align-items: center;   /* Center items vertically */
-            justify-content: center; /* Center items horizontally */
-            height: 100px;        /* Set a specific height for the container */
-            margin-left: 1rem;    /* Set left margin */
-            margin-right: 1rem;   /* Set right margin */
-        }
         .button {
             animation: slideInRight 1.5s ease forwards;
-            margin-left: 2vw;
+            margin-left: .1rem; /* Change from 2vw to 2rem */
             cursor: pointer;
             text-decoration: none;
             color: #008BF8;
             background: none;
             border: none;
-            font-size: 3vw;
+            font-size: 1.4rem; /* Adjust the font size as needed */
             outline: none;
             font-family: 'Quicksand', sans-serif;
-        }
-        .button:focus {
-            background: none;
-            outline: none;
+            font-weight: bold; 
         }
     }
 </style>

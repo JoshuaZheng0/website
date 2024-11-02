@@ -2,21 +2,16 @@
     let name = '';
     let email = '';
     let message = '';
-
-    function handleSubmit(event) {
-        event.preventDefault();
-        // Here you would handle the form submission, e.g., sending to an API
-        console.log('Form submitted:', { name, email, message });
-        // Reset the form
-        name = '';
-        email = '';
-        message = '';
+    let submitted = false;
+    function handleSubmit() {
+        submitted = true;
     }
 </script>
 
 <div class="contact-me">
     <h2>Contact Me</h2>
-    <form on:submit={handleSubmit}>
+    {#if ! submitted}
+    <form action="https://formsubmit.co/a8d6c1844f5cdd151de437268cb99911" method="POST" on:submit|preventDefault={handleSubmit}>
         <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" id="name" bind:value={name} required />
@@ -31,11 +26,14 @@
         </div>
         <button type="submit">Send</button>
     </form>
+    {:else}
+        <p>Thank You. I will get back to you soon.</p>
+    {/if}
 </div>
 
 <style>
     .contact-me {
-        background: linear-gradient(to right, #E9F1F7, #FFD520);
+        background: linear-gradient(to right, #ff9239, #FFD520);
         border-radius: 10px;
         padding: 20px;
         max-width: 400px; /* Adjust as needed */
