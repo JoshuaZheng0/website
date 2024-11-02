@@ -4,7 +4,7 @@
 
 <div class="contact-me">
     <h2>Contact Me</h2>
-    <form action="https://formsubmit.co/joshzcamp2018@gmail.com" method="POST" >
+    <form action="https://formsubmit.co/4cc262a7fb7fef49105d9622b26194ec" method="POST" >
         <input type="hidden" name="_subject" value="New submission!"> <!-- Subject of the email -->
         <input type="hidden" name="_autoresponse" value="Thank you for your email!"> <!-- Autoresponse message -->
         <input type="hidden" name="_next" value="https://www.joshuazheng.com/"> <!-- Redirect after submission -->
