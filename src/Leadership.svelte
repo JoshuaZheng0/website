@@ -6,7 +6,7 @@
     <section class="announcements">
         <h2>Honors</h2>
         <ul>
-            <li><a href="https://financialaid.umd.edu/resources-policies/presidents-scholarship-policy" class="no-style" target="_blank">UMD President’s Scholarship $12,500 yearly (2024 to 2028)</a></li>
+            <li><a href="https://financialaid.umd.edu/resources-policies/presidents-scholarship-policy" class="no-style" target="_blank">UMD President’s Scholarship (2024 to 2028)</a></li>
             <li><a href="https://www.isac.org/students/before-college/college-career-planning/state-scholar-program.html" class="no-style" target="_blank">Illinois State Scholar (2024)</a></li>
             <li><a href="https://adc.d211.org/site/Default.aspx?PageID=6614" class="no-style" target="_blank">Richard C Kolze Award (2024)</a></li>
             <li><a href="https://apstudents.collegeboard.org/awards-recognitions/ap-scholar-award" class="no-style" target="_blank">AP Scholar with Distinction (2023 and 2024)</a></li>
