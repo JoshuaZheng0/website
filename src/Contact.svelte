@@ -1,34 +1,31 @@
 <script>
-    let name = '';
-    let email = '';
-    let message = '';
-    let submitted = false;
-    function handleSubmit() {
-        submitted = true;
-    }
+
 </script>
 
 <div class="contact-me">
     <h2>Contact Me</h2>
-    {#if ! submitted}
-    <form action="https://formsubmit.co/a8d6c1844f5cdd151de437268cb99911" method="POST" on:submit|preventDefault={handleSubmit}>
+    <form action="https://formsubmit.co/joshzcamp2018@gmail.com" method="POST" >
+        <input type="hidden" name="_subject" value="New submission!"> <!-- Subject of the email -->
+        <input type="hidden" name="_autoresponse" value="Thank you for your email!"> <!-- Autoresponse message -->
+        <input type="hidden" name="_next" value="https://www.joshuazheng.com/"> <!-- Redirect after submission -->
         <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" id="name" bind:value={name} required />
+            <input name="name" type="text" id="name" required />
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" bind:value={email} required />
+            <input name="email"  type="email" id="email"  required />
+        </div>
+        <div class="form-group">
+            <label for="email">Number(optional):</label>
+            <input name="number" type="tel" id="number" />
         </div>
         <div class="form-group">
             <label for="message">Message:</label>
-            <textarea id="message" bind:value={message} rows="4" required></textarea>
+            <textarea name="message" rows="4" required></textarea>
         </div>
         <button type="submit">Send</button>
     </form>
-    {:else}
-        <p>Thank You. I will get back to you soon.</p>
-    {/if}
 </div>
 
 <style>
