@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   let text = " ⟨Hi, My name is Joshua Zheng/⟩";
-  let empt = "";
+  let empt = " ⟨Mion g/ashZyn is J ehemH, ua⟩";
   let displayedText = "";
   let typingSpeed = 40; // Typing speed in milliseconds
   let backSpeed = 40; // Backspacing speed
