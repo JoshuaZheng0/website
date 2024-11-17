@@ -57,7 +57,8 @@
             github: "",
             imagePosition: "right",
             date: "Summer 2024",
-            languages: "Linux, Debian, NGINX, SSH, "
+            languages: "Linux, Debian, NGINX, SSH",
+            link: "https://vps-josh-zheng.duckdns.org/"
         },
         {
             title: 'Gambling Simulation Game',
