@@ -15,7 +15,7 @@
         {
             title: "Chicken Learn",
             image: "/assets/Chicken-learn.jpg",
-            description: "Chicken Learn is an interactive web platform I created to make vocabulary building fun for children through 3D elements and animations. Built with Svelte and JavaScript, it features a user-friendly interface for exploring new words from the Random Word Generator API and definitions from DictionaryAPI. The platform includes dynamic visuals and custom CSS animations, all of which I designed without using templates.",
+            description: "Chicken Learn is an interactive web platform to make vocabulary building fun for children through 3D elements and animations. Built with Svelte and JavaScript, it features a user-friendly interface for exploring new words from the Random Word Generator API and definitions from DictionaryAPI. The platform includes dynamic visuals and custom CSS animations, all of which I designed without using templates.",
             github: "https://github.com/JoshuaZheng0/chicken-learn",
             imagePosition: "right",
             date: "October 2024",
@@ -51,11 +51,20 @@
             link: 'https://app.cloudpano.com/tours/nrUoBcJQb'
         },
         {
+            title: "Debian Home Server",
+            image: "/assets/VPS.jpg",
+            description:"I configured a Debian server (migrated it to a VPS) for hosting web applications. Set up NGINX for web hosting, implemented secure SSH access, and firewall rules for enhanced security. I used DuckDNS to obtain a free domain and secured traffic with CertBot, which automatically configures and renews SSL certificates for HTTPS. The server follows best security practices, with SSH key access for both root and the subuser joshlocal, and a firewall managed by ufw to prevent unauthorized access.",
+            github: "",
+            imagePosition: "right",
+            date: "Summer 2024",
+            languages: "Linux, Debian, NGINX, SSH, "
+        },
+        {
             title: 'Gambling Simulation Game',
             image: '/assets/gambling.png',
             description: 'Created a 2D slots game featuring a graphical interface using Unity and C#. The game includes engaging gameplay mechanics and a user-friendly design.',
             github: 'https://www.youtube.com/watch?v=sQOKUArmOCY',
-            imagePosition: 'right',
+            imagePosition: 'left',
             date: 'Spring 2024',
             languages: 'Unity, C#'
         },
@@ -85,16 +94,8 @@
             imagePosition: 'right',
             date: 'Fall 2023',
             languages: 'Java, Firebase, Android Development'
-        },
-        {
-            title: "Debian Home Server",
-            image: "",
-            description:"Configured a Debian server for hosting web applications and managing networked devices. Set up NGINX for web hosting, secure SSH access, automated backups, and remote file sharing, with firewall rules and permissions for added security.",
-            github: "",
-            imagePosition: "right",
-            date: "Summer 2024",
-            languages: "Linux, Debian, NGINX, SSH"
         }
+        
     ];
 </script>
 
