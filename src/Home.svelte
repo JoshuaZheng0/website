@@ -126,7 +126,7 @@
             <br/>
             <br/>
             <h5 style="color: black">
-                <a style="color: blue" href="https://github.com/JoshuaZheng0/website" target="_blank">This site</a> was made from scratch with Svelte and JavaScript—no templates! 🤣
+                <a style="color: blue" href="https://github.com/JoshuaZheng0/website" target="_blank">This site</a> was made from scratch with Svelte and JavaScript
             </h5>
         </div>
     </div>
