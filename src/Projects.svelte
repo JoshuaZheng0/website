@@ -58,7 +58,7 @@
             imagePosition: "right",
             date: "Summer 2024",
             languages: "Linux, Debian, NGINX, SSH",
-            link: "https://vps-josh-zheng.duckdns.org/"
+            link: "https://vps.joshuazheng.com/"
         },
         {
             title: 'Gambling Simulation Game',
